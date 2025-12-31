@@ -19,7 +19,7 @@ A Python-based GUI application designed to help students automatically generate 
 
 ## 🛠️ Setup & Requirements
 
-1.  **Python 3.10+**: The script uses modern type hinting (`str | None`).
+1.  **Python 3.10+**
 2.  **Dependencies**: Install the required plotting library via your terminal:
     ```bash
     pip install matplotlib
