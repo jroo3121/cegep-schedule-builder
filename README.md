@@ -4,6 +4,11 @@ A Python-based GUI application designed to help students automatically generate 
 
 ---
 
+## Releases:
+https://github.com/jroo3121/cegep-schedule-builder/releases
+
+---
+
 ## 🚀 Features
 
 * **Automatic Generation:** Uses recursive logic to find every possible conflict-free combination of classes.
