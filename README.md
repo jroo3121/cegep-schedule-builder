@@ -4,7 +4,7 @@ A Python-based GUI application designed to help students automatically generate 
 
 ---
 
-## Releases:
+## Downloads:
 https://github.com/jroo3121/cegep-schedule-builder/releases
 
 ---
