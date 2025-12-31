@@ -1,0 +1,113 @@
+# ==============================================================================
+# DATA ENTRY INSTRUCTIONS
+# ==============================================================================
+# Format: Course_Section_Description_Teacher_Day1_Start1_End1_Day2_Start2_End2...
+#
+# RULES:
+# 1. Use underscores (_) to separate every field.
+# 2. Use "none" (case-sensitive) if a Description is unavailable.
+# 3. Use HH:MM (24-hour format) for all timestamps.
+# 4. For courses with multiple sessions, continue adding Day_Start_End as needed.
+#
+# EXAMPLES:
+# English_003_Arthurian Legends_Fitz-James, M._Mon_12:15_14:15_Fri_08:15_10:15
+# Calculus_001_none_SLAVCHEV, P._Mon_14:15_16:15_Tue_16:15_17:45_Thu_16:15_17:45
+#
+# For the program to ignore a class, leave a # in front of it. 
+# Example: # English_003_...
+#
+# PRO-TIP: To save time, provide an AI with a raw list of classes and one of
+# the examples above; it can automatically reformat your entire list for you.
+# ==============================================================================
+
+# START INPUTTING CLASSES HERE:
+# English_001_The Artist in Fiction and Non-fiction_MacDonald, J._Tue_10:15_12:15_Fri_10:15_12:15
+# English_002_Business Communication_Burton, A._Wed_14:15_16:15_Fri_14:15_16:15
+# English_003_Business Communication_Burton, A._Mon_10:15_12:15_Wed_10:15_12:15
+# English_004_Stories on Stories_Carrier, N._Mon_16:15_18:15_Wed_16:15_18:15
+# English_005_Stories on Stories_Carrier, N._Tue_16:15_18:15_Thu_16:15_18:15
+# English_006_Writings and Writing about Food_Khoo, J._Mon_16:15_18:15_Wed_16:15_18:15
+# English_007_Writings and Writing about Food_Khoo, J._Mon_14:15_16:15_Thu_10:45_12:45
+# English_008_Gossip in Literature and Film_King, S._Mon_10:15_12:15_Wed_10:15_12:15
+# English_009_Science and Science Fiction_Vann, M._Mon_10:15_12:15_Wed_10:15_12:15
+# English_010_Social Issues in Literature_Newell, M._Mon_08:15_10:15_Wed_08:15_10:15
+# English_011_Literature and The Body_Malott, P._Mon_08:15_10:15_Wed_08:15_10:15
+# English_012_Character-Driven Creative Writing_Dubé, P._Mon_16:15_18:15_Wed_16:15_18:15
+English_013_World Mythology and Critical Theory_McCambridge, A._Wed_12:15_14:15_Fri_12:15_14:15
+# English_014_Creative Nonfiction: Writing (True) Stories_Walser, S._Tue_16:15_18:15_Thu_16:15_18:15
+# English_015_Creative Nonfiction: Writing (True) Stories_Walser, S._Tue_14:15_16:15_Thu_14:15_16:15
+# English_016_Eroticism in Poetry_Ralickas, V._Wed_12:15_14:15_Fri_12:15_14:15
+# English_017_Creative Writing_Sheckler, C._Tue_10:15_12:15_Fri_10:15_12:15
+# English_018_Shakespeare over Time_Morris, B._Wed_14:15_16:15_Fri_14:15_16:15
+# English_019_Eroticism in Poetry_Ralickas, V._Mon_14:15_16:15_Thu_10:45_12:45
+# English_020_Literature and Theory_Huffels, N._Tue_14:15_16:15_Thu_14:15_16:15
+# English_021_Gossip in Literature and Film_King, S._Tue_08:15_10:15_Fri_08:15_10:15
+# English_023_World Mythology and Critical Theory_McCambridge, A._Tue_08:15_10:15_Fri_08:15_10:15
+# English_024_Social Issues in Literature_Newell, M._Mon_12:15_14:15_Thu_08:15_10:15
+# English_025_Science and Science Fiction_Vann, M._Mon_12:15_14:15_Thu_08:15_10:15
+Humanities_001_Ethics and the Family_Richardson, W._Mon_09:45_11:15_Wed_09:45_11:15
+Humanities_002_Ethics and the Family_Richardson, W._Mon_12:45_14:15_Thu_09:45_11:15
+Humanities_003_Cannibals and Conquistadors: Ethical Issues in Colonial and Contemporary Latin America_Koutsoyannis, S._Tue_08:15_09:45_Fri_08:15_09:45
+Humanities_004_The Virtue Project_Koumouzelis, A._Mon_14:15_15:45_Thu_11:15_12:45
+Humanities_005_Popular Culture and Sexual Representation_Hays, M._Tue_11:15_12:45_Fri_11:15_12:45
+Humanities_006_Just Progress? Ethics of Innovation_Sumner, L._Mon_08:15_09:45_Wed_08:15_09:45
+Humanities_007_Just Progress? Ethics of Innovation_Sumner, L._Wed_12:45_14:15_Fri_12:45_14:15
+Humanities_008_Monks and Magicians: Renunciation in Indian Traditions_Sasson, V._Mon_11:15_12:45_Thu_08:15_09:45
+Humanities_009_Monks and Magicians: Renunciation in Indian Traditions_Sasson, V._Tue_09:45_11:15_Fri_09:45_11:15
+Humanities_010_The Virtue Project_Koumouzelis, A._Tue_16:15_17:45_Thu_16:15_17:45
+Humanities_011_Representation, Reporting and the Stories We Tell_Brand, S._Mon_08:15_09:45_Wed_08:15_09:45
+Humanities_012_Representation, Reporting and the Stories We Tell_Brand, S._Mon_12:45_14:15_Thu_09:45_11:15
+Humanities_013_The Da Vinci Code_Cerrolaza, E._Mon_09:45_11:15_Wed_09:45_11:15
+Humanities_014_The Da Vinci Code_Cerrolaza, E._Tue_08:15_09:45_Fri_08:15_09:45
+Humanities_015_Humanities Adapted to Programs_TBAHUM3, M._Wed_11:15_12:45_Fri_14:15_15:45
+Humanities_016_Humanities Adapted to Programs_TBAHUM3, M._Mon_16:15_17:45_Wed_16:15_17:45
+Humanities_017_Humanities Adapted to Programs_TBAHUM3, M._Tue_14:15_15:45_Thu_14:15_15:45
+Humanities_018_Humanities Adapted to Programs_TBAHUM2, M._Tue_14:15_15:45_Thu_14:15_15:45
+Humanities_071_Ethics of Globalization_Dufour, M._Wed_14:15_15:45_Fri_14:15_15:45
+Humanities_072_Ethics of Globalization_Dufour, M._Mon_14:15_15:45_Thu_11:15_12:45
+Humanities_091_Just and Unjust Wars_Dufour, M._Tue_11:15_12:45_Fri_11:15_12:45
+French D02_001_none_Dupuis, A._Mon_09:45_11:15_Wed_09:45_11:15
+French D02_002_none_Dupuis, A._Tue_08:15_09:45_Fri_08:15_09:45
+French D02_003_none_Morin Cabana, T._Mon_14:15_15:45_Thu_11:15_12:45
+French E02_002_none_TBAMDL4, M._Wed_14:15_15:45_Fri_14:15_15:45
+French E02_003_none_TBAMDL4, M._Wed_16:15_17:45_Fri_16:15_17:45
+French E02_004_none_TBAMDL4, M._Mon_14:15_15:45_Thu_11:15_12:45
+# E&M_003_none_Sankeralli, M._Mon_12:15_14:15_Thu_08:15_10:15
+E&M_004_none_Fatholahzadeh, B._Mon_14:15_16:15_Thu_10:45_12:45
+# E&M_005_none_TBAPHY1, M._Wed_10:15_12:15_Fri_14:15_16:15
+# E&M_006_none_TBAPHY1, M._Tue_10:15_12:15_Fri_10:15_12:15
+# E&M_007_none_Smith, A._Mon_08:15_10:15_Wed_08:15_10:15
+# E&M_008_none_TBAPHY7, M._Tue_10:45_12:45_Fri_10:15_12:15
+# E&M_009_none_TBAPHY7, M._Tue_14:15_16:15_Thu_14:15_16:15
+# E&M_010_none_TBAPHY6, M._Tue_08:15_10:15_Fri_08:15_10:15
+# E&M_011_none_Vinet, J._Mon_08:15_10:15_Wed_08:15_10:15
+# E&M_012_none_TBAPHY6, M._Tue_14:15_16:15_Thu_14:15_16:15
+# E&M_013_none_TBAPHY6, M._Wed_12:15_14:15_Fri_12:15_14:15
+# E&M_014_none_TBAPHY7, M._Mon_14:15_16:15_Thu_10:45_12:45
+# E&M_015_none_Smith, A._Wed_12:15_14:15_Fri_12:15_14:15
+# E&M_016_none_Smith, A._Mon_12:15_14:15_Thu_08:15_10:15
+Chemistry_001_none_Gallant, P._Mon_14:15_16:15_Thu_10:45_12:45
+Chemistry_002_none_Gallant, P._Wed_14:15_16:15_Fri_14:15_16:15
+Chemistry_003_none_TBACHE3, M._Wed_16:15_18:15_Fri_16:15_18:15
+Chemistry_004_none_TBACHE3, M._Tue_10:15_12:15_Fri_10:15_12:15
+Chemistry_005_none_TBACHE3, M._Tue_16:15_18:15_Thu_16:15_18:15
+Chemistry_006_none_Williams, D._Mon_12:15_14:15_Thu_08:15_10:15
+Integrative_001_none_TBABIO4, M._Tue_08:15_09:45_Fri_08:15_09:45
+Integrative_002_none_TBABIO4, M._Tue_09:45_11:15_Fri_09:45_11:15
+Integrative_003_none_Brunet, S._Mon_09:45_11:15_Wed_09:45_11:15
+Integrative_004_none_Brunet, S._Tue_11:15_12:45_Fri_11:15_12:45
+Integrative_005_none_Paradis, D._Wed_12:45_14:15_Fri_12:45_14:15
+Integrative_006_none_Gillis, R._Mon_11:15_12:45_Thu_08:15_09:45
+Integrative_007_none_Gillis, R._Mon_08:15_09:45_Wed_08:15_09:45
+Integrative_008_none_Jinbachian, L._Mon_08:15_09:45_Wed_08:15_09:45
+Integrative_009_none_Jinbachian, L._Mon_12:45_14:15_Thu_09:45_11:15
+Integrative_010_none_Williams, D._Mon_16:15_17:45_Wed_14:15_15:45
+Integrative_011_none_Mailhot, P._Tue_09:45_11:15_Fri_09:45_11:15
+Integrative_012_none_Colatriano, D._Wed_11:15_12:45_Fri_14:15_15:45
+Integrative_013_none_Bigdely, H._Tue_16:15_17:45_Thu_16:15_17:45
+Integrative_014_none_Bigdely, H._Tue_14:15_15:45_Thu_14:15_15:45
+Integrative_015_none_Charette, F._Wed_16:15_17:45_Fri_16:15_17:45
+Integrative_016_none_Hamel, M._Mon_11:15_12:45_Thu_08:15_09:45
+Integrative_017_none_Mailhot, P._Mon_14:15_15:45_Thu_11:15_12:45
+Calculus_001_none_Turner, C._Tue_16:15_18:15_Thu_16:15_18:15
+
