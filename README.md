@@ -8,12 +8,13 @@ A Python-based GUI application designed to help students automatically generate 
 
 * **Automatic Generation:** Uses recursive logic to find every possible conflict-free combination of classes.
 * **Visual Timetables:** Generates color-coded weekly views using `matplotlib`.
-* **Advanced Filtering:** * Limit early morning (08:15) or late afternoon classes.
+* **Advanced Filtering:**
+    * Limit early morning (08:15) or late afternoon classes.
     * Set a maximum number of days on campus.
     * Exclude specific days of the week.
     * Cap the total "gap time" (waiting between classes).
-* **PDF Export:** Save your favorite schedules to a multi-page PDF document.
-* **Optimization:** Sort generated schedules by "Least Gap Time" to minimize wasted time on campus.
+* **PDF Export:** Save schedules to a multi-page PDF document.
+* **Optimization:** Sort generated schedules by "Least Gap Time" to minimize time on campus.
 
 ---
 
